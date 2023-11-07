@@ -1,0 +1,6 @@
+resources:
+  - secret.yaml
+  - configmap.yaml
+  - mysql-deployment.yaml
+  - wordpress-deployment.yaml
+  - wordpress-ingress.yaml
