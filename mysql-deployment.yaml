@@ -6,9 +6,9 @@ metadata:
     app: wordpress
 spec:
   ports:
-      - port: 8001
+      - port: 8000
         targetPort: 3306
-        nodePort: 30001
+        nodePort: 30000
   selector:
     app: wordpress
     tier: mysql

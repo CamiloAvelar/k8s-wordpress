@@ -6,7 +6,8 @@ metadata:
     ingress.kubernetes.io/ssl-redirect: "false"
 spec:
   rules:
-  - http:
+  - host: wordpress.localdev.me
+    http:
       paths:
       - path: /
         pathType: Prefix
