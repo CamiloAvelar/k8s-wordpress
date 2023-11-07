@@ -6,13 +6,12 @@ metadata:
     app: wordpress
 spec:
   ports:
-      - port: 8000
-        targetPort: 3306
-        nodePort: 30000
+      - protocol: TCP
+        port: 3306
   selector:
     app: wordpress
     tier: mysql
-  type: NodePort
+  type: LoadBalancer
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim

@@ -4,5 +4,5 @@ metadata:
   name: wordpress-config
 data:
   WORDPRESS_DATABASE: wordpress
-  WORDPRESS_DB_HOST: wordpress-mysql:8000
+  WORDPRESS_DB_HOST: wordpress-mysql
   WORDPRESS_DB_USER: wordpress
